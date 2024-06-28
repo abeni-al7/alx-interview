@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+'''A module for the solution of pascal's triangle'''
+
+
 def pascal_triangle(n):
     if n <= 0:
         return []
