@@ -1,4 +1,9 @@
+#!/usr/bin/python3
+'''Lockboxes Algorithm problem'''
+
+
 def canUnlockAll(boxes):
+    '''Solution function'''
     if not boxes:
         return False
     count = len(boxes)
@@ -8,7 +13,7 @@ def canUnlockAll(boxes):
     while stack:
         box = stack.pop()
         for key in boxes[box]:
-            if visited[key] == False:
+            if visited[key] is False:
                 visited[key] = True
                 stack.append(key)
     return all(visited)
