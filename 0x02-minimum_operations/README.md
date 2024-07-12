@@ -1,0 +1,1 @@
+Algorithm question to solve for the minimum number of operations to get a desired number of Hs with Copy All and Paste operations available
