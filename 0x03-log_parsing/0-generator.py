@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+'''Log parsing solution'''
 import random
 import sys
 from time import sleep
